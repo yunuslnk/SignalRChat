@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {
         "type": "package",
         "build": {
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
@@ -12,14 +12,15 @@
     }
   },
   "libraries": {
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {
-      "sha512": "dcsF7rjxvMnqtfckpzWYvBsZsJD51yQVHSSgd2EN5/CJ/zQigJrfo313lvAwf0VL9ZOHLnJthuboadjnBAU7Ng==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.18.1": {
+      "sha512": "RtNQEQQ/bgaxzrsZEkPB+/DFaUgNiq8GtZz/R4lt+mKXPcEvEuawlbl0PB1s7ND9kvkUVZtMphPxE9Ma1VGiFg==",
       "type": "package",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.15.1",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.18.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "CHANGELOG.md",
         "EULA.md",
         "ThirdPartyNotices.txt",
         "build/Container.props",
@@ -43,7 +44,7 @@
         "build/ToolsTarget.props",
         "build/ToolsTarget.targets",
         "icon.png",
-        "microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512",
         "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
         "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
@@ -99,24 +100,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ysusmanto\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\SignalRChat\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
+      "projectUniqueName": "D:\\PROJECT\\SignalRChat\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
       "projectName": "SignalRChat",
-      "projectPath": "D:\\Project\\SignalRChat\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
-      "packagesPath": "C:\\Users\\ysusmanto\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\SignalRChat\\SignalRChat\\SignalRChat\\obj\\",
+      "projectPath": "D:\\PROJECT\\SignalRChat\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\PROJECT\\SignalRChat\\SignalRChat\\SignalRChat\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ysusmanto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -124,7 +120,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {}
       },
       "frameworks": {
         "net6.0": {
@@ -153,7 +149,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -165,8 +162,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "SignalRChat depends on Microsoft.VisualStudio.Azure.Containers.Tools.Targets (>= 1.15.1) but Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.15.1 was not found. An approximate best match of Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.18.1 was resolved.",
+      "libraryId": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
